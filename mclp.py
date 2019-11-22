@@ -89,8 +89,7 @@ def mclp(points,K,radius,M):
     mask1 = D<=radius
     D[mask1]=1
     D[~mask1]=0
-    m = Model()
-    # Add variables
+    # Build model
     m = Model()
     # Add variables
     x = {}
